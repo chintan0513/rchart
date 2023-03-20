@@ -2,7 +2,7 @@ import { AiOutlineSetting } from "react-icons/ai";
 import Chart from "./Chart";
 import { GrUserWorker } from "react-icons/gr";
 import { GiCctvCamera } from "react-icons/gi";
-import Liner from "./Line";
+//import Liner from "./Line";
 
 const User = () => {
     return (
@@ -44,7 +44,7 @@ const User = () => {
             <div className="flex rounded-lg w-1/3 absolute right-0 mx-2 mt-5 bg-[#5555] ">
                 <Chart />
             </div>
-            <Liner />
+            {/* <Liner /> */}
         </div>
     );
 }
