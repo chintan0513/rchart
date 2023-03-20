@@ -13,7 +13,7 @@ import {
     Legend
 } from 'chart.js'
 
-import { getElementsAtEvent, Line, Bar, Doughnut } from 'react-chartjs-2';
+import { getElementsAtEvent, Doughnut } from 'react-chartjs-2';
 ChartJS.register(LineElement, BarElement, ArcElement, PointElement, CategoryScale, LinearScale, Tooltip, Legend);
 
 const Chart = (rchart) => {

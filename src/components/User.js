@@ -2,7 +2,7 @@ import { AiOutlineSetting } from "react-icons/ai";
 import Chart from "./Chart";
 import { GrUserWorker } from "react-icons/gr";
 import { GiCctvCamera } from "react-icons/gi";
-import Liner from "./Line";
+// import Liner from "./Line";
 
 const User = (doughnut) => {
     return (
