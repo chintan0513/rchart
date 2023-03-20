@@ -1,16 +1,14 @@
-import Chart from './components/Chart';
 import Header from './components/Header';
 import { AiOutlineHome, AiOutlineFileZip, AiOutlineDashboard } from 'react-icons/ai';
-import User from './components/User';
 
 const App = () => {
 
   return (
-    <div className='flex flex-col bg-[#f1f1f1]'>
+    <div className='flex flex-col bg-gray-400'>
       <div className='app flex flex-row'>
         <div className='left flex flex-col  outline outline-1 font-semibold'>
           <div className='flex flex-row p-3 items-center'>
-            <a className='brand font-bold' href="#" >ALVISION <span className='font-medium'>| Stamp</span></a>
+            <a className='brand font-bold' href='/' >ALVISION <span className='font-medium'>| Stamp</span></a>
             <select className='text-center p-0 m-0 items-center bg-[lightgray]'>
               <option></option>
               <option>1</option>

@@ -10,13 +10,11 @@
 
 .app {
   height: 100vh;
+  overflow: hidden;
 }
 
 .container {
-  display: flex;
   width: 350px;
-  gap: 25px;
-  padding: 20px;
   height: 300px;
 }
 
@@ -28,4 +26,15 @@
 .bar {
   height: 200px;
   width: 100%;
+}
+
+.img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: transparent;
+}
+
+.line {
+  width: 550px;
 }

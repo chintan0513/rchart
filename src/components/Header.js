@@ -1,15 +1,15 @@
 import { AiOutlineSearch, AiOutlineBell, AiOutlineMail, AiFillFilter, AiOutlineSetting } from 'react-icons/ai';
 import '../app.css';
 import Effect from './Effect';
-
 import User from './User';
+import Liner from './Line';
 
 const Header = () => {
     return (
-        <div className='p-3 '>
+        <div className='p-3 flex flex-col'>
             <div className='search flex flex-row-row text-lg  items-center'>
                 <div className='flex w-96'>
-                    <input className='p-1 w-96 rounded-md' type="text" placeholder='Search' />
+                    <input className='p-1 w-96 rounded-md bg-[#f1f1f1]' type="text" placeholder='Search' />
                     <button className='p-1 w-12  rounded-md bg-[lightgray]'><AiOutlineSearch /></button>
                 </div>
                 <div className='flex text-2xl ml-96 text-center items-center absolute right-0'>
@@ -23,7 +23,7 @@ const Header = () => {
                                 alt="avatar" className='h-10 rounded-full w-10' />
                         </button>
                     </div>
-                    <select className='bg-[#f1f1f1] hover:bg-[lightgray] rounded-md m-1'>
+                    <select className='bg-transparent hover:bg-[lightgray] rounded-md mt-1'>
                         <option></option>
                         <option>1</option>
                         <option>1</option>
@@ -33,6 +33,7 @@ const Header = () => {
             </div>
             <User />
             <Effect />
+            <Liner />
         </div>
     );
 }
