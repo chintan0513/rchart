@@ -44,7 +44,7 @@ const User = () => {
             <div className="flex rounded-lg w-1/3 absolute right-0 mx-2 mt-5 bg-[#5555] ">
                 <Chart />
             </div>
-            {/* <Liner /> */}
+            
         </div>
     );
 }

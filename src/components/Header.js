@@ -1,5 +1,7 @@
 import { AiOutlineSearch, AiOutlineBell, AiOutlineMail, AiFillFilter, AiOutlineSetting } from 'react-icons/ai';
 import '../app.css';
+import Effect from './Effect';
+
 import User from './User';
 
 const Header = () => {
@@ -30,6 +32,7 @@ const Header = () => {
                 </div>
             </div>
             <User />
+            <Effect />
         </div>
     );
 }

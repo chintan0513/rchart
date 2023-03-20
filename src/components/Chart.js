@@ -23,8 +23,8 @@ const Chart = () => {
             {
                 label: 'Throughput',
                 data: [250, 300, 450, 150, 100, 500, 300, 600],
-                backgroundColor: ['#FC6300', '#263238'],
-                borderColor: ['#FC6300', '#263238'],
+                backgroundColor: ['#FC6300', '#263238', '#f1f1f1'],
+                borderColor: ['#FC6300', '#263238', '#f1f1f1'],
                 //borderColor: 'black',
                 tension: 0,
                 link: ['https://www.google.com/', 'https://www.google.com/', 'https://www.google.com/', 'https://www.google.com/',
@@ -66,7 +66,7 @@ const Chart = () => {
             // ctx.textAlign = 'center';
             const text = '50%',
                 textX = Math.round((width - ctx.measureText(text).width) / 1.9),
-                textY = height / 0.8;
+                textY = height / 0.75;
             ctx.fillText(text, textX, textY);
             ctx.save();
         }
