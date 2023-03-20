@@ -4,7 +4,7 @@ import { GrUserWorker } from "react-icons/gr";
 import { GiCctvCamera } from "react-icons/gi";
 // import Liner from "./Line";
 
-const User = (doughnut) => {
+const User = () => {
     return (
         <div className="flex flex-row">
             <div className="user flex flex-col h-56 rounded-lg bg-[#5555] mt-5 p-3">

@@ -16,7 +16,7 @@ import {
 import { getElementsAtEvent, Doughnut } from 'react-chartjs-2';
 ChartJS.register(LineElement, BarElement, ArcElement, PointElement, CategoryScale, LinearScale, Tooltip, Legend);
 
-const Chart = (rchart) => {
+const Chart = () => {
     const data = {
         labels: ['7:30', '9:30', '11:30', '1:30', '3:30', '5:30', '7:30'],
         datasets: [
