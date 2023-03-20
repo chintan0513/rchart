@@ -3,17 +3,15 @@ import '../app.css'
 import {
     Chart as ChartJS,
     LineElement,
-    ArcElement,
     BarElement,
     PointElement,
-    CategoryScale,
     LinearScale,
     Tooltip,
     Legend
 } from 'chart.js'
 
 import { getElementsAtEvent, Line, Bar } from 'react-chartjs-2';
-ChartJS.register(LineElement, BarElement, ArcElement, PointElement, CategoryScale, LinearScale, Tooltip, Legend);
+ChartJS.register(LineElement, BarElement, PointElement, LinearScale, Tooltip, Legend);
 
 const Liner = () => {
 
