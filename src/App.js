@@ -4,7 +4,7 @@ import { AiOutlineHome, AiOutlineFileZip, AiOutlineDashboard } from 'react-icons
 const App = () => {
 
   return (
-    <div className='flex flex-col bg-gray-400'>
+    <div className='flex flex-col bg-gray-300'>
       <div className='app flex flex-row'>
         <div className='left flex flex-col  outline outline-1 font-semibold'>
           <div className='flex flex-row p-3 items-center'>
